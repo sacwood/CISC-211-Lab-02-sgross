@@ -54,15 +54,8 @@ asmFunc:
 
     
     /*** STUDENTS: Place your code BELOW this line!!! **************/
-int main() {
-    int Rm, Rn, Rd = 0;
- print("Enter two integers: ");
- scanf("%d %d", &Rm, &Rn);
- Rd = Rm + Rn;
- printf("Sum: %d" , Rd);
- return 0;
- }
-    
+    ADD R0, R1, R2
+ 
     /*** STUDENTS: Place your code ABOVE this line!!! **************/
     
     /* restore the caller's registers, as required by the 
