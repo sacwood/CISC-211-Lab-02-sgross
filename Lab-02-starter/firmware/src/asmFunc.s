@@ -11,7 +11,7 @@
 /* create a string */
     
 /*** STUDENTS: HINT: this is the string that the C code prints out!  **/
-nameStr: .asciz "Hello. My name is Inigo Montoya."  
+nameStr: .asciz "Hello. My name is Shayla Gross."  
  
 /* initialize a global variable that C can access to print the nameStr */
 .global nameStrPtr
@@ -54,7 +54,14 @@ asmFunc:
 
     
     /*** STUDENTS: Place your code BELOW this line!!! **************/
-
+int main() {
+    int Rm, Rn, Rd = 0;
+ print("Enter two integers: ");
+ scanf("%d %d", &Rm, &Rn);
+ Rd = Rm + Rn;
+ printf("Sum: %d" , Rd);
+ return 0;
+ }
     
     /*** STUDENTS: Place your code ABOVE this line!!! **************/
     
